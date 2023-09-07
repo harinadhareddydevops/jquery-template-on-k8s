@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: static
-        image: 174711900443.dkr.ecr.us-east-2.amazonaws.com/frontend:latest
+        image: 174711900443.dkr.ecr.us-east-2.amazonaws.com/frontend:$BUILD_NUMBER
         ports:
         - containerPort: 80
   
